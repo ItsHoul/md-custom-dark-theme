@@ -1,6 +1,10 @@
-# md-custom-dark-theme
-Simple dark theme for mastodon
+# Mastodon custom dark theme
+#### Simple dark theme for mastodon
 
-Just use stylus to install le css file :D
+<img alt="preview" src="https://cdn.discordapp.com/attachments/920986174565257236/994209847241363486/bro_what.png"/>
 
-It's still not finished btw
+# Warning
+#### it's still unfinished, you can find some unedited parts
+
+# How to install?
+#### Just download/copypaste the .css file content into your stylus browser extension, that's all!
