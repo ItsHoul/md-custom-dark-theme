@@ -1,6 +1,82 @@
 body {
     background-color:#101010;
+    font-family: "Storopia"
 }
+
+.column-header__collapsible-inner {
+    background:#101010;
+}
+
+.tabs-bar {
+     background:#1d1d1d;
+}
+
+
+.detailed-status__action-bar {
+    border-top: 0px;
+    border-bottom: 0px;
+        transition-duration:0.15s
+}
+
+.detailed-status__wrapper:focus {
+    background: #242424;
+            transition-duration:0.15s;
+}
+
+.detailed-status__wrapper {
+    transition-duration:0.15s
+}
+
+.detailed-status__wrapper:focus .detailed-status {
+    background: #242424;
+            transition-duration:0.15s
+}
+
+.detailed-status__wrapper:focus .detailed-status__action-bar {
+    background: #242424;
+        transition-duration:0.15s
+}
+
+
+.tabs-bar__link.active {
+    border-radius: 10px;
+    border: 2px solid #88a1b3;
+    color: #cae9ff;
+}
+
+
+.tabs-bar__link {
+    transition-duration:0.15s;
+    border-radius: 10px;
+    border: 2px solid #88a1b3;
+    color: #cae9ff;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.dropdown-menu__arrow.top {
+    border-top-color:#101010;
+}
+
+.dropdown-menu__item a, .dropdown-menu__item button {
+    background: #101010;
+    color:#999;
+}
+
+.dropdown-menu__separator {
+     background: #1f1f1f;
+}
+
+.dropdown-menu {
+    background: #101010;
+}
+
+
+
+.dropdown-menu__item a:hover, .dropdown-menu__item button:hover{
+    background: #2f2f2f
+}
+
 
 
 
@@ -10,6 +86,11 @@ body {
 
 .account__header__bar {
     border-bottom: 1px solid #00000000
+}
+
+.account__header__fields {
+    border-top: 0px;
+    border-bottom: 0px;
 }
 
 .account__avatar {
@@ -128,6 +209,10 @@ article, .status-public, .activity-stream .entry, .column > .scrollable,
     color: #585858;
 }
 
+.zoomable-image {
+     backdrop-filter: blur(5px);
+}
+
 .column-link {
   color:#b6b6b6;
   background-color:#1515151f;
@@ -182,4 +267,10 @@ article, .status-public, .activity-stream .entry, .column > .scrollable,
 
 .regeneration-indicator {
     background:#282828
+}
+
+.icon-button.star-icon.active {
+    color:#fff0;
+    background-image:url("https://owodev.ml/bobuxcat.png");
+    background-size:cover;
 }
