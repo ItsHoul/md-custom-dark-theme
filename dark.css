@@ -3,6 +3,28 @@ body {
     font-family: "Storopia"
 }
 
+.public-account-header__tabs__tabs {
+     background-color:#1A1A1A;
+}
+
+.public-account-header__bar {
+    border-radius:00px;
+}
+
+.public-account-header {
+    border-radius:15px;
+    background: #1a1a1a
+}
+.public-account-header__image {
+         transition-duration:0.15s;
+}
+
+.public-account-header__image:hover {
+     filter: blur(3px) brightness(90%);
+     transition-duration:0.15s;
+    transform: scale(0.99);
+}
+
 .column-header__collapsible-inner {
     background:#101010;
 }
@@ -105,6 +127,7 @@ body {
 .compose-form .autosuggest-textarea__textarea, .compose-form .spoiler-input__input {
     transition-duration: 0.15s;
     background: #111;
+        color: #cdcdcd;
 }
 
 .compose-form .autosuggest-textarea__textarea, .compose-form .spoiler-input__input {
@@ -113,12 +136,41 @@ body {
 
 .compose-form .compose-form__buttons-wrapper {
     background: #1d1d1d;
+        color: #cdcdcd;
 }
 
 .compose-form .compose-form__modifiers {
      background: #1d1d1d
+         
 }
 
+.autosuggest-textarea__textarea {
+ color: #717171
+}
+
+.character-counter {
+ color: #717171
+}
+
+.getting-started__footer a {
+        color: #4d4d4d
+}
+
+.getting-started__footer p {
+        color: #383838
+}
+
+.getting-started__footer p a{
+        color: #383838
+}
+
+.icon-button.inverted {
+    color: #717171
+}
+
+.text-icon-button {
+     color: #717171
+}
 
 .button {
  background: #191919;
@@ -269,8 +321,3 @@ article, .status-public, .activity-stream .entry, .column > .scrollable,
     background:#282828
 }
 
-.icon-button.star-icon.active {
-    color:#fff0;
-    background-image:url("https://owodev.ml/bobuxcat.png");
-    background-size:cover;
-}
